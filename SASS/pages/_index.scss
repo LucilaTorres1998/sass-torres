@@ -14,3 +14,32 @@
       font-size: $size *4;
  }
 
+ /* hero */
+
+.padre1{
+    margin-top: $size *12;
+    display: grid; 
+    place-items: center; 
+    height: 100vh; 
+    background-image:url(./multimedia/sdvdfz.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+  }
+  
+  .hijo1 h2 {
+    margin-top: 50px; 
+    text-align: center;
+    font-family: 'Chela One', cursive;
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.911); 
+  }
+  
+  .hijo1 p {
+    font-family: 'Roboto', sans-serif;
+     font-size: 25px; 
+     color: rgba(255, 255, 255, 0.911); 
+     background-color: #413f4242;
+  }
+
