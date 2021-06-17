@@ -81,19 +81,20 @@ nav, .navbar-brand {
   border-radius: 8px;
 }
 
-.carta img {
-  width: 80%;
-  margin-top: 15px;
-}
-
 .instrucciones h3 {
   color: rgba(255, 255, 255, 0.747);
   padding-bottom: 1px;
+  font-size: 20px;
 }
 
 .instrucciones p {
   color: rgba(255, 255, 255, 0.747);
   padding-bottom: 1px;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.instrucciones .carta img {
+  width: 80%;
+  margin-top: 15px;
 }
 /*# sourceMappingURL=main.css.map */
