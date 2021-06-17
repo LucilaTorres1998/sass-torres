@@ -1,0 +1,16 @@
+.bg-purple{
+    background-color: rgb(199, 187, 209);
+  }
+  
+  nav, .navbar-brand{
+    width: 100%;
+    flex: 1 0 50px; 
+    color: rgba(202, 180, 180, 0.747); 
+    font-size: $size *4 ;
+    padding: $size *2;
+  }
+
+  .dropdown-menu li{
+      font-size: $size *4;
+ }
+

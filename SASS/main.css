@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+.bg-purple {
+  background-color: #c7bbd1;
+}
+
+nav, .navbar-brand {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50px;
+          flex: 1 0 50px;
+  color: rgba(202, 180, 180, 0.747);
+  font-size: 20px;
+  padding: 10px;
+}
+
+.dropdown-menu li {
+  font-size: 20px;
+}
+/*# sourceMappingURL=main.css.map */
