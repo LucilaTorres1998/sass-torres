@@ -117,14 +117,18 @@
       align-items: center;
       flex-direction: column;
       color: white;
-      top:0%
+      top:0%;
+
+      & h3{
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+      }
     }
     
      /* ¡¡PROBLEMA!! */ 
      .hover-galeria h3{
-      text-decoration: none;
-      color: white;
-      font-family: 'Roboto', sans-serif;
+
     }
     
     .imagen-opc:hover .hover-galeria{
@@ -190,18 +194,18 @@
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    background-color: rgb(199, 187, 209);;
+    background-color: rgb(199, 187, 209);
+
+    & h2{
+        font-family: 'Chela One', cursive;
+        font-size: 30px;
+        font-weight: 600px;
+        width: 100%;
+        padding: 5px;
+        color: black   
+    }
   }
   
-  .container-body h2{
-    font-family: 'Chela One', cursive;
-    font-size: 30px;
-    font-weight: 600px;
-    width: 100%;
-    padding: 5px;
-    color: black       
-    
-  }
   
   .seguinos img{
     cursor: pointer;
@@ -213,15 +217,16 @@
     text-align: center;
     text-decoration: none;
     background-color: #353232;
-    color:black 
+    color:black;
+
+    & .informacion{
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        background-color: #353232;
+        color:black 
+    }
   }
   
-  .container-footer .informacion{
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    background-color: #353232;
-    color:black 
-  }
 
   

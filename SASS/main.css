@@ -151,13 +151,13 @@ nav, .navbar-brand {
   top: 0%;
 }
 
-/* ¡¡PROBLEMA!! */
 .hover-galeria h3 {
   text-decoration: none;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
 
+/* ¡¡PROBLEMA!! */
 .imagen-opc:hover .hover-galeria {
   -webkit-transform: scale(1);
           transform: scale(1);
