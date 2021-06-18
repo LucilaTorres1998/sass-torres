@@ -33,7 +33,7 @@ nav, .navbar-brand {
   font-size: 20px;
 }
 
-/* ----- hero ----- */
+/* HERO */
 .padre1 {
   margin-top: 60px;
   display: -ms-grid;
@@ -62,7 +62,7 @@ nav, .navbar-brand {
   background-color: #413f4242;
 }
 
-/* instrucciones */
+/* INSTRUCCIONES */
 .instrucciones {
   background-color: #e4e4e4;
 }
@@ -100,7 +100,7 @@ nav, .navbar-brand {
   margin-top: 15px;
 }
 
-/* destinos hover */
+/* DESTINOS hover */
 .imagen-opc {
   height: 300px;
   overflow: hidden;
@@ -148,14 +148,14 @@ nav, .navbar-brand {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: white;
+  color: rgba(255, 255, 255, 0.747);
   top: 0%;
   /* ¡¡PROBLEMA!! */
 }
 
 .hover-galeria h3 {
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.747);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -164,7 +164,7 @@ nav, .navbar-brand {
           transform: scale(1);
 }
 
-/* destinos cartas */
+/* DESTINOS cartas */
 .servicios {
   background-image: url(/multimedia/puerto-madero-noche3.jpg);
   background-position: center;
@@ -177,7 +177,7 @@ nav, .navbar-brand {
   font-family: 'Chela One', cursive;
   text-align: center;
   color: rgba(255, 255, 255, 0.747);
-  font-size: 48px;
+  font-size: 50px;
   padding: 15px 10px;
 }
 
@@ -211,9 +211,8 @@ nav, .navbar-brand {
   border-radius: 5px;
 }
 
-/* footer */
+/* FOOTER */
 .footer {
-  background: #F37335;
   width: 100%;
   color: #353232;
 }
@@ -255,7 +254,7 @@ nav, .navbar-brand {
   color: black;
 }
 
-/* DESTINOS PAG */
+/* DESTINO ELEGIDO */
 .textos {
   padding-top: 20px;
   padding-left: 60px;
@@ -266,7 +265,7 @@ nav, .navbar-brand {
   text-align: center;
   font-family: 'Chela One', cursive;
   font-size: 30px;
-  color: #ee8a38;
+  color: #ec8937;
 }
 
 .textos p {
@@ -306,11 +305,195 @@ nav, .navbar-brand {
   font-family: 'Chela One', cursive;
   font-size: 30px;
   padding-top: 40px;
-  color: #ee8a38;
+  color: #ec8937;
 }
 
 .texto-mapa li {
   list-style: none;
   font-family: 'Roboto', sans-serif;
+}
+
+/* INFORMACIÓN */
+/* -nros- */
+.informacion {
+  background-color: #e4e4e4;
+}
+
+.informacion .carta {
+  margin-top: 90px;
+}
+
+.informacion img {
+  margin-top: 50px;
+  height: 300px;
+}
+
+.informacion h3 {
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 50px;
+  width: 100%;
+  padding: 5px;
+  color: #b189d1;
+}
+
+.informacion li {
+  font-family: 'Roboto', sans-serif;
+  color: #b189d1;
+  font-size: 18px;
+}
+
+/* -clima- */
+.clima {
+  padding-top: 50px;
+  background-color: #e4e4e4;
+}
+
+.clima h3 {
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  width: 100%;
+  padding: 5px;
+  color: #ec8937;
+}
+
+.clima li {
+  font-family: 'Roboto', sans-serif;
+  color: #ec8937;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.clima img {
+  height: 400px;
+}
+
+/* -turista- */
+.turista {
+  padding-top: 50px;
+  background-color: #e4e4e4;
+}
+
+.turista img {
+  height: 300px;
+}
+
+.turista h3 {
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 5px;
+  color: #b189d1;
+}
+
+.turista li {
+  font-family: 'Roboto', sans-serif;
+  color: #b189d1;
+  font-size: 18px;
+}
+
+.turista li .apps {
+  list-style: none;
+}
+
+/* -sube- */
+.sube {
+  padding-top: 50px;
+  background-color: #e4e4e4;
+}
+
+.sube img {
+  height: 300px;
+}
+
+.sube h3 {
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 50px;
+  width: 100%;
+  padding: 5px;
+  color: #ec8937;
+}
+
+.sube p {
+  font-family: 'Roboto', sans-serif;
+  color: #ec8937;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.sube h4 {
+  font-family: 'Chela One', cursive;
+}
+
+.sube li {
+  font-family: 'Roboto', sans-serif;
+  color: #ec8937;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+/* CONTACTO */
+/* form */
+.contacto {
+  background-color: #c0b8c7;
+  padding: 20px;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  background: #ee8a38;
+  padding: 30px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin: 0%;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: white;
+  margin: 0%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background-color: #ba7bd3;
+  border: none;
+  padding: 10px;
+}
+
+#boton:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
