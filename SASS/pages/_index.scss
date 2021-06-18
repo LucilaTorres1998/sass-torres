@@ -14,14 +14,14 @@
       font-size: $size *4;
  }
 
- /* hero */
+ /* ----- hero ----- */
 
 .padre1{
     margin-top: $size *12;
     display: grid; 
     place-items: center; 
     height: 100vh; 
-    background-image:url(./multimedia/sdvdfz.jpg);
+    background-image:url(/multimedia/sdvdfz.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;  
@@ -119,6 +119,7 @@
       color: white;
       top:0%;
 
+      /* ¡¡PROBLEMA!! */ 
       & h3{
         text-decoration: none;
         color: white;
@@ -126,10 +127,6 @@
       }
     }
     
-     /* ¡¡PROBLEMA!! */ 
-     .hover-galeria h3{
-
-    }
     
     .imagen-opc:hover .hover-galeria{
       transform: scale(1);
@@ -137,7 +134,7 @@
     
     /* destinos cartas */
     .servicios{
-      background-image: url(./multimedia/puerto-madero-noche3.jpg);
+      background-image: url(/multimedia/puerto-madero-noche3.jpg);
       background-position: center; 
       background-repeat: no-repeat; 
       background-size: cover; 
@@ -195,6 +192,7 @@
     padding: 10px 0;
     text-align: center;
     background-color: rgb(199, 187, 209);
+
 
     & h2{
         font-family: 'Chela One', cursive;
