@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0%;
@@ -150,6 +151,7 @@ nav, .navbar-brand {
   top: 0%;
 }
 
+/* ¡¡PROBLEMA!! */
 .hover-galeria h3 {
   text-decoration: none;
   color: white;
@@ -206,5 +208,49 @@ nav, .navbar-brand {
   height: 250px;
   margin-top: 1px;
   border-radius: 5px;
+}
+
+/* footer */
+.footer {
+  background: #F37335;
+  width: 100%;
+  color: #353232;
+}
+
+.container-body {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #c7bbd1;
+}
+
+.container-body h2 {
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  width: 100%;
+  padding: 5px;
+  color: black;
+}
+
+.seguinos img {
+  cursor: pointer;
+  size: 20px;
+}
+
+.container-footer {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #353232;
+  color: black;
+}
+
+.container-footer .informacion {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #353232;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
