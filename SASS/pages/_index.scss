@@ -118,14 +118,15 @@
       flex-direction: column;
       color: $blanco-textos;
       top:0%;
-
+    }
+    
       /* ¡¡PROBLEMA!! */ 
       & h3{
         text-decoration: none;
         color: $blanco-textos;
         font-family: 'Roboto', sans-serif;
       }
-    }
+   
     
     
     .imagen-opc:hover .hover-galeria{

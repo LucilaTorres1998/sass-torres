@@ -148,14 +148,14 @@ nav, .navbar-brand {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: rgba(255, 255, 255, 0.747);
+  color: white;
   top: 0%;
   /* ¡¡PROBLEMA!! */
 }
 
 .hover-galeria h3 {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.747);
+  color: white;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -177,7 +177,7 @@ nav, .navbar-brand {
   font-family: 'Chela One', cursive;
   text-align: center;
   color: rgba(255, 255, 255, 0.747);
-  font-size: 50px;
+  font-size: 48px;
   padding: 15px 10px;
 }
 
@@ -213,6 +213,7 @@ nav, .navbar-brand {
 
 /* FOOTER */
 .footer {
+  background: #F37335;
   width: 100%;
   color: #353232;
 }
@@ -265,7 +266,7 @@ nav, .navbar-brand {
   text-align: center;
   font-family: 'Chela One', cursive;
   font-size: 30px;
-  color: #ec8937;
+  color: #ee8a38;
 }
 
 .textos p {
@@ -305,7 +306,7 @@ nav, .navbar-brand {
   font-family: 'Chela One', cursive;
   font-size: 30px;
   padding-top: 40px;
-  color: #ec8937;
+  color: #ee8a38;
 }
 
 .texto-mapa li {
@@ -400,6 +401,16 @@ nav, .navbar-brand {
   list-style: none;
 }
 
+.turista h3 {
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 50px;
+  width: 100%;
+  padding: 5px;
+  color: #b189d1;
+}
+
 /* -sube- */
 .sube {
   padding-top: 50px;
@@ -436,64 +447,5 @@ nav, .navbar-brand {
   color: #ec8937;
   font-size: 18px;
   padding-bottom: 10px;
-}
-
-/* CONTACTO */
-/* form */
-.contacto {
-  background-color: #c0b8c7;
-  padding: 20px;
-}
-
-form {
-  width: 450px;
-  margin: auto;
-  background: #ee8a38;
-  padding: 30px 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-top: 90px;
-  margin-bottom: 20px;
-  border-radius: 7px;
-}
-
-h2 {
-  color: white;
-  text-align: center;
-  margin: 0%;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  color: white;
-  margin: 0%;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-input, textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: none;
-}
-
-textarea {
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 100%;
-}
-
-#boton {
-  background-color: #ba7bd3;
-  border: none;
-  padding: 10px;
-}
-
-#boton:hover {
-  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
